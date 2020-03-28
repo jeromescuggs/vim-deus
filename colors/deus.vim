@@ -32,7 +32,7 @@ if !exists('g:deus_italic')
   if has('gui_running') || $TERM_ITALICS == 'true'
     let g:deus_italic=1
   else
-    let g:deus_italic=0
+    let g:deus_italic=1
   endif
 endif
 if !exists('g:deus_undercurl')
